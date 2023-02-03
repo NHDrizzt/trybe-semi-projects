@@ -8,6 +8,6 @@ describe('6 - Crie uma função que retorna o somatório de um número', () => {
     expect(somatorio(1)).toBe(1);
   });
   it('Retorne ERRO quando a função somatorio é chamada com um número negativo', () => {
-    expect(somatorio(-1)).toBe("ERRO");
+    expect(somatorio(-1)).toBe('ERRO');
   });
 });

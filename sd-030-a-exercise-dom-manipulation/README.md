@@ -15,9 +15,10 @@ Ao iniciar este exercício, você concorda com as diretrizes do Código de Condu
 <details>
   <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
 
-  Para entregar o seu exercício você deverá criar um *Pull Request* neste repositório.
+Para entregar o seu exercício você deverá criar um _Pull Request_ neste repositório.
 
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+
 </details>
 
 <details>
@@ -35,9 +36,10 @@ Utilize o código abaixo e siga as instruções que vem a seguir:
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício</title>
-    
+
     <style>
-      main, section {
+      main,
+      section {
         border-color: black;
         border-style: solid;
       }
@@ -62,9 +64,9 @@ Utilize o código abaixo e siga as instruções que vem a seguir:
     </style>
   </head>
   <body>
-    <header> 
+    <header>
       <h1 class="title">Desafio - JavaEscripito</h1>
-    </header>    
+    </header>
     <main class="main-content">
       <section class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -91,7 +93,7 @@ Para avaliar seus conhecimentos de HTML, você deve modificar os elementos já e
 <br />
 
 # Orientações
-  
+
 <details>
 <summary><strong>‼ Antes de começar a desenvolver</strong></summary><br />
 
@@ -186,7 +188,7 @@ Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-eng
 
 Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a `main`. Sinta-se à vontade!
 
-**Atenção!**: Ao criar o PR,  você irá se deparar com essa tela:
+**Atenção!**: Ao criar o PR, você irá se deparar com essa tela:
 
 ![PR do exercício](images/example-pr.png)
 

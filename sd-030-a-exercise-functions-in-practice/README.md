@@ -123,6 +123,7 @@ O seu Pull Request deverá conter o arquivo `src/functions.js` com suas funçõe
 - Crie as funções no arquivo `functions.js` que está no diretório `src`, usando os mesmos nomes especificados nos comentários. Você pode criar outras funções de auxílio, entretanto, **você deve criar e utilizar as funções com os nomes que estão nos comentários, pois estas que serão avaliadas.**
 
 **De olho na dica 👀:**
+
 - Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_;
 
 - Utilize `console.log()` para testar as funções localmente, mas remova antes de fazer o `push` 😉.
@@ -194,7 +195,6 @@ npm test verificaPalindromo
 
 </details>
 
-
 <details>
   <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
 
@@ -224,7 +224,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 
 - Se para o parâmetro `'ligado'` a função muda para `'desligado'`, chama o `console.log` com o valor `"O motor está desligado"` e retorna como resultado a _string_ `'desligado'`;
 - Se para o parâmetro `'desligado'` a função muda para `'ligado'`, chama o `console.log` com o valor `"O motor está ligado"` e retorna como resultado a _string_ `'ligado'`;
-  
+
 </details>
 
 ## 2. Crie uma função que calcule a área de um círculo
