@@ -60,7 +60,7 @@ const maisRepetido = (object) => {
   let aux = 0;
   let maisRep = 0;
   for (const iterator of object) {
-    let counter = checkIterator(iterator, object);
+    const counter = checkIterator(iterator, object);
     if (aux < counter) {
       aux = counter;
       maisRep = iterator;

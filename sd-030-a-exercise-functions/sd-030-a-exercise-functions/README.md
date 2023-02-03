@@ -123,6 +123,7 @@ O seu Pull Request deverá conter o arquivo `src/functions.js` com suas funçõe
 - Crie as funções no arquivo `functions.js` que está no diretório `src`, usando os mesmos nomes especificados nos comentários. Você pode criar outras funções de auxílio, entretanto, **você deve criar e utilizar as funções com os nomes que estão nos comentários, pois estas que serão avaliadas.**
 
 **De olho na dica 👀:**
+
 - Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_;
 
 - Utilize `console.log()` para testar as funções localmente, mas remova antes de fazer o `push` 😉.
@@ -193,7 +194,6 @@ npm test verificaPalindromo
 ⚠️ Atenção: **O avaliador automático não necessariamente avalia seu exercício na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
 
 </details>
-
 
 <details>
   <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
