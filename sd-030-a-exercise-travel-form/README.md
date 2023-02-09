@@ -22,7 +22,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 <details>
   <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
-Neste exercício, iremos criar um formulário para concorrer a uma viagem. 
+Neste exercício, iremos criar um formulário para concorrer a uma viagem.
 
 Imagine que você está surfando na internet. Você agora é uma pessoa desenvolvedora, cansada após finalmente terminar seus estudos e pensando nas suas maravilhosas e merecidas férias.
 
@@ -129,9 +129,10 @@ Neste exercício, verificamos se você é capaz de:
 
 O seu Pull Request deverá conter obrigatoriamente os arquivos `forms.html` e `script.js` com sua devida lógica implementada.
 
-- Não é necessário criar o arquivo `forms.html` pois ele já está criado.  **Durante a resolução dos requisitos, crie o costume de adicionar IDs em elementos únicos e classes em elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora**
+- Não é necessário criar o arquivo `forms.html` pois ele já está criado. **Durante a resolução dos requisitos, crie o costume de adicionar IDs em elementos únicos e classes em elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora**
 
 **De olho na dica 👀:**
+
 - Para verificar em tempo real como está ficando seu formulário é só usar a extensão `live Server` no _VSCode_;
 
 </details>
@@ -203,7 +204,6 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 </details>
 
-
 <details>
   <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
 
@@ -218,9 +218,9 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 <details>
   <summary>No arquivo já criado <code>form.html</code> , adicione as informações a seguir </summary><br>
 
-  - Adicione o título, que deverá ficar dentro de uma tag `h1` e possuir o id `title`;
-  - O título deve ter o texto `Formulário Trybe Travel`;
-  - Crie a tag `form` que deve conter o id `main-form`.
+- Adicione o título, que deverá ficar dentro de uma tag `h1` e possuir o id `title`;
+- O título deve ter o texto `Formulário Trybe Travel`;
+- Crie a tag `form` que deve conter o id `main-form`.
 
 </details>
 <details>
@@ -279,13 +279,13 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 </details>
 
 ## 3. Adicione botões ao formulário.
+
 <details>
 <summary>O formulário deverá ter 2 botões </summary><br>
 
-  - Crie um botão para enviar as informações preenchidas;
-    - O botão deve ter o id `submit-btn`.
-  - Crie um botão para limpar as informações contidas nos campos.
-    - O botão deve ter o id `clear-btn`.
+- Crie um botão para enviar as informações preenchidas;
+  - O botão deve ter o id `submit-btn`.
+- Crie um botão para limpar as informações contidas nos campos. - O botão deve ter o id `clear-btn`.
 </details>
 
 <details>
@@ -304,10 +304,10 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 <details>
 <summary>No arquivo <code>script.js</code> faça as seguintes tarefas</summary>
 
-  - Interrompa o comportamento padrão do botão submit utilizando o método `preventDefault()`;
-  - Ao clicar no botão limpar, os campos devem ficar vazios.
+- Interrompa o comportamento padrão do botão submit utilizando o método `preventDefault()`;
+- Ao clicar no botão limpar, os campos devem ficar vazios.
 
-  > **De olho na dica 👀:**  Vamos utilizar um pouco de Javascript. Para isso, crie o arquivo script.js e o referencie no HTML.
+> **De olho na dica 👀:** Vamos utilizar um pouco de Javascript. Para isso, crie o arquivo script.js e o referencie no HTML.
 
 </details>
 
@@ -315,12 +315,12 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
   <summary><strong>O que será testado</strong></summary><br>
 
 - Ao clicar no botão enviar, as informações contidas nos inputs devem permanecer;
-- Ao clicar no botão limpar, os campos devem ficar vazios. 
+- Ao clicar no botão limpar, os campos devem ficar vazios.
 
 </details>
 
 ---
- 
+
 # Bônus
 
 ## 5. Validação de imagem
@@ -349,7 +349,7 @@ A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em m
 <details>
 <summary>Faça a validação dos campos do formulário </summary><br>
 
-- Faça a validação dos campos com limite de caracteres a seguir; 
+- Faça a validação dos campos com limite de caracteres a seguir;
 - O input Nome completo deve teve ter no máximo 40 caracteres;
 - O input E-mail deve teve ter no máximo 50 caracteres;
 - O textarea deve ter no máximo 500 caracteres.

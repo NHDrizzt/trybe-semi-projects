@@ -1,12 +1,8 @@
 {
   "root": true,
-  "extends": [
-    "trybe-fundamentals"
-  ],
+  "extends": ["trybe-fundamentals"],
   "rules": {
-    "no-undef": [
-      "off"
-    ],
+    "no-undef": ["off"],
     "no-console": "off",
     "prefer-arrow-callback": "off",
     "func-names": "off",
