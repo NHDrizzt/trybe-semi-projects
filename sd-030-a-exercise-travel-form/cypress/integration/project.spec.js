@@ -44,7 +44,10 @@ describe('travel-form', () => {
       cy.get(TRYBE_TRAVEL_EMAIL).should('exist');
     });
     it('Existem quatro elementos com o name `destinations`', () => {
-      cy.get(TRYBE_TRAVEL_FORM).find('[name="destinations"]').its('length').should('be.gte', 4);
+      cy.get(TRYBE_TRAVEL_FORM)
+        .find('[name="destinations"]')
+        .its('length')
+        .should('be.gte', 4);
     });
     it('Existe um elemento com o id `question`', () => {
       cy.get(TRYBE_TRAVEL_QUESTION).should('exist');
@@ -78,8 +81,9 @@ describe('travel-form', () => {
   describe('4 - Manipule as informações via javascript', () => {
     it('Verifica o uso do eventPreventDefault()', () => {
       cy.window().then((win) => {
-        win.document.erro = 'Erro: A página não pode se atualizar ao clicar no botão Enviar.';
-      })
+        win.document.erro =
+          'Erro: A página não pode se atualizar ao clicar no botão Enviar.';
+      });
       cy.get(TRYBE_TRAVEL_NAME).type('Teste');
       cy.get(TRYBE_TRAVEL_EMAIL).type('teste@gmail.com');
       cy.get(TRYBE_TRAVEL_QUESTION).type('teste');
@@ -88,9 +92,11 @@ describe('travel-form', () => {
       cy.get(TRYBE_TRAVEL_CHECKBOX).check();
       cy.get(TRYBE_TRAVEL_SUBMIT_BUTTON).click();
       cy.window().then((win) => {
-        expect('Erro: A página não pode se atualizar ao clicar no botão Enviar.').to.equal(win.document.erro);
-      })
-    })
+        expect(
+          'Erro: A página não pode se atualizar ao clicar no botão Enviar.'
+        ).to.equal(win.document.erro);
+      });
+    });
 
     it('Verifica se ao clicar no botão limpar os campos limpam.', () => {
       cy.get(TRYBE_TRAVEL_NAME).type('clear Teste');
@@ -98,48 +104,49 @@ describe('travel-form', () => {
       cy.get(TRYBE_TRAVEL_QUESTION).type('teste');
       cy.get(TRYBE_INPUT_DATE).type('2023-01-30');
       cy.get(TRYBE_INPUT_CHECKBOX).check();
-      cy.get(TRYBE_TRAVEL_CHECKBOX).check()
+      cy.get(TRYBE_TRAVEL_CHECKBOX).check();
       cy.get(TRYBE_TRAVEL_CLEAR_BUTTON).click();
-      cy.get(TRYBE_TRAVEL_NAME).should('have.value', '')
-    })
+      cy.get(TRYBE_TRAVEL_NAME).should('have.value', '');
+    });
   });
 
   describe('5 - Faça a validação de imagem ao clicar no checkbox correspondente.', () => {
     it('Existe um elemento do tipo checkbox com o id `agreement`', () => {
-      cy.get('input#agreement[type="checkbox"]')
-        .should('exist');
+      cy.get('input#agreement[type="checkbox"]').should('exist');
     });
     it('Antes de marcar o campo de confirmação, o botão de Enviar deve estar desabilitado', () => {
-      cy.get('button#submit-btn')
-        .should('be.disabled');
+      cy.get('button#submit-btn').should('be.disabled');
     });
     it('Ao marcar o campo de confirmação, o botão de Enviar deve ser habilitado', () => {
-      cy.get('input#agreement')
-        .check();
-      cy.get('button#submit-btn')
-        .should('not.be.disabled');
+      cy.get('input#agreement').check();
+      cy.get('button#submit-btn').should('not.be.disabled');
     });
   });
 
   describe('6 - Faça a validação dos campos do formulário.', () => {
     it('o input "Nome Completo" teve ter no máximo 40 caracteres', () => {
       cy.get(TRYBE_TRAVEL_NAME).type('text'.repeat(10));
-      cy.get(TRYBE_TRAVEL_NAME).invoke('val').should((value) => {
-        expect(value).to.match(/^[a-z]{40}$/);
-      });
+      cy.get(TRYBE_TRAVEL_NAME)
+        .invoke('val')
+        .should((value) => {
+          expect(value).to.match(/^[a-z]{40}$/);
+        });
     });
     it('o input "E-mail" teve ter no máximo 50 caracteres', () => {
       cy.get(TRYBE_TRAVEL_EMAIL).type('text'.repeat(13));
-      cy.get(TRYBE_TRAVEL_EMAIL).invoke('val').should((value) => {
-        expect(value).to.match(/^[a-z]{50}$/);
-      });
+      cy.get(TRYBE_TRAVEL_EMAIL)
+        .invoke('val')
+        .should((value) => {
+          expect(value).to.match(/^[a-z]{50}$/);
+        });
     });
     it('O textarea deve ter no máximo 500 caracteres', () => {
       cy.get(TRYBE_TRAVEL_QUESTION).type('text'.repeat(200));
-      cy.get(TRYBE_TRAVEL_QUESTION).invoke('val').should((value) => {
-        expect(value).to.match(/^[a-z]{500}$/);
-      });
+      cy.get(TRYBE_TRAVEL_QUESTION)
+        .invoke('val')
+        .should((value) => {
+          expect(value).to.match(/^[a-z]{500}$/);
+        });
     });
-  })
-
+  });
 });

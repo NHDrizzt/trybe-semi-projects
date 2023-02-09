@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Title</title>
-</head>
-<body>
-
-<form id="main-form" action="" method="get">
-    <h1 id="title">Formulário Trybe Travel</h1>
-    <label for="fullName">Nome Completo:</label>
-    <input id="fullName" type="text" maxlength="40">
-    <br>
-    <label for="email">Email:</label>
-    <input id="email" type="email" maxlength="50">
-    <br>
-    <label for="destinations">Destino:</label>
-    <select id="destinations">
+  </head>
+  <body>
+    <form id="main-form" action="" method="get">
+      <h1 id="title">Formulário Trybe Travel</h1>
+      <label for="fullName">Nome Completo:</label>
+      <input id="fullName" type="text" maxlength="40" />
+      <br />
+      <label for="email">Email:</label>
+      <input id="email" type="email" maxlength="50" />
+      <br />
+      <label for="destinations">Destino:</label>
+      <select id="destinations">
         <option value="destinations" name="destinations">Destino 1</option>
         <option value="destinations" name="destinations">Destino 2</option>
         <option value="destinations" name="destinations">Destino 3</option>
         <option value="destinations" name="destinations">Destino 4</option>
-    </select>
-    <br>
-    <label for="question">Pergunta:</label>
-    <textarea id="question" name="question" id="" cols="30" rows="10" maxlength="500"></textarea>
-    <br>5062
-    <label for="date">Data:</label>
-    <input id="date" type="date">
-    <br>
-    <label for="promo">Código Promocional:</label>
-    <input id="promo" type="radio">
-    <br>
-    <label for="agreement">Concordo com os termos:</label>
-    <input id="agreement" type="checkbox">
-    <br>
-    <button id="submit-btn" disabled>Enviar</button>
-    <button id="clear-btn">Limpar</button>
-</form>
+      </select>
+      <br />
+      <label for="question">Pergunta:</label>
+      <textarea
+        id="question"
+        name="question"
+        id=""
+        cols="30"
+        rows="10"
+        maxlength="500"
+      ></textarea>
+      <br />5062
+      <label for="date">Data:</label>
+      <input id="date" type="date" />
+      <br />
+      <label for="promo">Código Promocional:</label>
+      <input id="promo" type="radio" />
+      <br />
+      <label for="agreement">Concordo com os termos:</label>
+      <input id="agreement" type="checkbox" />
+      <br />
+      <button id="submit-btn" disabled>Enviar</button>
+      <button id="clear-btn">Limpar</button>
+    </form>
 
-<script>
-    const form = document.querySelector("#main-form");
-    form.addEventListener("submit", function(event) {
+    <script>
+      const form = document.querySelector("#main-form");
+      form.addEventListener("submit", function (event) {
         document.querySelector("#fullName").value = "";
         document.querySelector("#email").value = "";
         document.querySelector("#destinations").selectedIndex = 0;
@@ -48,28 +54,23 @@
         document.querySelector("#date").value = "";
         document.querySelector("#promo").value = "";
         document.querySelector("#agreement").checked = false;
-    });
-    const confirmaCampo = document.querySelector('#agreement')
-    confirmaCampo.addEventListener('change', (event) => {
+      });
+      const confirmaCampo = document.querySelector("#agreement");
+      confirmaCampo.addEventListener("change", (event) => {
         event.preventDefault();
         if (event.currentTarget.checked) {
-            button.disabled = false
+          button.disabled = false;
         } else {
-            button.disabled = true
+          button.disabled = true;
         }
+      });
 
-    })
-
-    const button = document.querySelector('#submit-btn')
-    button.addEventListener('click', (event) => {
+      const button = document.querySelector("#submit-btn");
+      button.addEventListener("click", (event) => {
         event.preventDefault();
-    })
+      });
 
-    window.onload = () => {
-
-    }
-</script>
-
-
-</body>
+      window.onload = () => {};
+    </script>
+  </body>
 </html>
