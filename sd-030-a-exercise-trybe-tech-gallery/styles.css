@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  background-color: gray;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20px;
+}
+
+.header-container > h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.header-img {
+  width: 50px;
+  height: 50px;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  gap: 0.5rem;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+.gallery-card > img {
+  display: flex;
+  width: 200px;
+  height: 180px;
+}
+
+.gallery-card {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 1rem;
+}
+
+.footer-container img {
+  width: 50px;
+}
+
+.randomFix {
+  display: flex;
+  justify-content: center;
+}
