@@ -24,5 +24,5 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
-//Source: https://github.com/msmps/cypress-layout-inspector
-import 'cypress-layout-inspector/add-support';
+// Source: https://github.com/msmps/cypress-layout-inspector
+import 'cypress-layout-inspector/add-support'
