@@ -13,19 +13,20 @@ Ao iniciar este exercício, você concorda com as diretrizes do Código de Condu
 <details>
   <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
 
-  Para entregar o seu exercício você deverá criar um *Pull Request* neste repositório.
+Para entregar o seu exercício você deverá criar um _Pull Request_ neste repositório.
 
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+
 </details>
 
 <details>
   <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
-  Você vai desenvolver uma página web utilizando `HTML` e `CSS` com conceitos de *Flexbox*. A página é uma galeria de fotos com algumas linguagens e frameworks front-end.
+Você vai desenvolver uma página web utilizando `HTML` e `CSS` com conceitos de _Flexbox_. A página é uma galeria de fotos com algumas linguagens e frameworks front-end.
 
-  💡 Veja no exemplo a seguir como pode ser a aparência do exercício depois de pronto. Você pode, ao final, ir além para deixar o site com sua cara.
+💡 Veja no exemplo a seguir como pode ser a aparência do exercício depois de pronto. Você pode, ao final, ir além para deixar o site com sua cara.
 
-  ![exemplo](./images/trybe-tech-gallery.jpeg)
+![exemplo](./images/trybe-tech-gallery.jpeg)
 
   <br />
 
