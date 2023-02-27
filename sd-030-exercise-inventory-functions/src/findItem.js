@@ -4,7 +4,7 @@ function findItem(inventory, name) {
       return item;
     }
   }
-  throw new Error('O item não foi encontrado');
+  throw new Error("O item não foi encontrado");
 }
 
 module.exports = findItem;
