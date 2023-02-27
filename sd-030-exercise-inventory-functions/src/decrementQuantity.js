@@ -1,4 +1,4 @@
-const findItem = require('./findItem');
+const findItem = require("./findItem");
 
 function decrementQuantity(inventory, name, decrement) {
   if (decrement === undefined) {
@@ -6,7 +6,7 @@ function decrementQuantity(inventory, name, decrement) {
   }
   const item = findItem(inventory, name);
   if (decrement > item.quantity) {
-    throw new Error('O decremento deve ser menor ou igual a quantidade atual');
+    throw new Error("O decremento deve ser menor ou igual a quantidade atual");
   }
   item.quantity -= decrement;
   return item.quantity;

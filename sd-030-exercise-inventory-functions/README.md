@@ -5,9 +5,10 @@ Para realizar este desafio, uma pessoa do grupo deverá compartilhar a tela e cl
 <details>
   <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
 
-  Para entregar o exercício sua equipe deverá criar um *Pull Request* neste repositório.
+Para entregar o exercício sua equipe deverá criar um _Pull Request_ neste repositório.
 
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+
 </details>
 
 <details>
@@ -18,48 +19,54 @@ Para realizar este desafio, uma pessoa do grupo deverá compartilhar a tela e cl
 Para a pessoa compartilhando a tela:
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-030-exercise-inventory-tests.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-030-exercise-inventory-tests`
+
+- `git clone git@github.com:tryber/sd-030-exercise-inventory-tests.git`.
+- Entre na pasta do repositório que você acabou de clonar:
+  - `cd sd-030-exercise-inventory-tests`
 
 2. Instale as dependências e inicialize o exercício
-  * Instale as dependências:
-    * `npm install`
+
+- Instale as dependências:
+  - `npm install`
 
 3. Crie uma branch a partir da branch `main`
-  * Verifique que você está na branch `main`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `main`
-    * Exemplo: `git checkout main`
-  * Agora, crie uma branch onde vai guardar os `commits` do exercício
-    * Você deve criar uma branch no seguinte formato: `equipe-x-nome-do-exercicio`
-    * Exemplo: `git checkout -b equipe-1-inventory-tests`
+
+- Verifique que você está na branch `main`
+  - Exemplo: `git branch`
+- Se não estiver, mude para a branch `main`
+  - Exemplo: `git checkout main`
+- Agora, crie uma branch onde vai guardar os `commits` do exercício
+  - Você deve criar uma branch no seguinte formato: `equipe-x-nome-do-exercicio`
+  - Exemplo: `git checkout -b equipe-1-inventory-tests`
 
 4. Quando fizer mudanças, adicione-as ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer as alterações realizadas em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (deve aparecer listado os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o exercício. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+
+- Verifique que as mudanças ainda não estão no _stage_
+  - Exemplo: `git status` (deve aparecer as alterações realizadas em vermelho)
+- Adicione o novo arquivo ao _stage_ do Git
+  - Exemplo:
+    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
+    - `git status` (deve aparecer listado os arquivos em verde)
+- Faça o `commit` inicial
+  - Exemplo:
+    - `git commit -m 'iniciando o exercício. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
+    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin equipe-1-inventory-tests`
+
+- Usando o exemplo anterior: `git push -u origin equipe-1-inventory-tests`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-exercise-inventory-tests/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-    * Coloque um título para a sua _Pull Request_
-    * Exemplo: _"Cria tela de busca"_
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-exercise-inventory-tests/pulls) e confira que o seu _Pull Request_ está criado
+
+- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-exercise-inventory-tests/pulls)
+- Clique no botão verde _"New pull request"_
+- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+  - Coloque um título para a sua _Pull Request_
+  - Exemplo: _"Cria tela de busca"_
+- Clique no botão verde _"Create pull request"_
+- Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
+- **Não se preocupe em preencher mais nada por enquanto!**
+- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-exercise-inventory-tests/pulls) e confira que o seu _Pull Request_ está criado
 
 </details>
 
@@ -69,8 +76,8 @@ Para a pessoa compartilhando a tela:
 </summary>
 
 Para executar todos os testes utilize o comando: `npm test`.
-Este exercício já está configurado para apresentar a cobertura de código. 
-Para executar os testes de um arquivo específico adicione o nome do arquivo. 
+Este exercício já está configurado para apresentar a cobertura de código.
+Para executar os testes de um arquivo específico adicione o nome do arquivo.
 Por exemplo:
 
 ```
@@ -86,10 +93,10 @@ A saída da execução vai ser algo parecido com:
     ✎ todo lança exceção se não for passado um array
 
 -------------------|---------|----------|---------|---------|-------------------
-File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 -------------------|---------|----------|---------|---------|-------------------
-All files          |      25 |        0 |       0 |      25 |                   
- addToInventory.js |      25 |        0 |       0 |      25 | 2-5               
+All files          |      25 |        0 |       0 |      25 |
+ addToInventory.js |      25 |        0 |       0 |      25 | 2-5
 -------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       2 todo, 2 total
@@ -102,18 +109,18 @@ Cada arquivo de teste possui sugestões do que pode ser testado, na forma de `it
 Por exemplo:
 
 ```javascript
-describe('a função addToInventory', () => {
-  it.todo('adiciona item ao inventário');
+describe("a função addToInventory", () => {
+  it.todo("adiciona item ao inventário");
 });
 ```
 
-Para implementar o teste remova o `.todo` e adicione a função com o seu teste. 
+Para implementar o teste remova o `.todo` e adicione a função com o seu teste.
 Exemplo:
 
 ```javascript
-describe('a função addToInventory', () => {
-  it('adiciona item ao inventário', () => {
-    // seu teste vai aqui! ;)  
+describe("a função addToInventory", () => {
+  it("adiciona item ao inventário", () => {
+    // seu teste vai aqui! ;)
   });
 });
 ```
@@ -133,12 +140,11 @@ Dica: cada exercício contém dicas do que vocês podem testar. Procurem discuti
   Dicas do que vocês podem testar:
 </summary>
 
-* Se ao chamar a função passando um novo item o tamanho do array aumentou em um;
-* Se ao chamar a função passando um novo item o array contém o novo item; Lembrem que o valor que estamos [avaliando é um objeto dentro de um array](https://jestjs.io/pt-BR/docs/expect#tocontainequalitem).
-* Se ao chamar a função sem parâmetros lança a exceção `O inventário deve ser um array`. Lembrem de envolver a chamada da função em uma nova função [para que o Jest possa capturar o erro.](https://jestjs.io/pt-BR/docs/using-matchers#exce%C3%A7%C3%B5es)
+- Se ao chamar a função passando um novo item o tamanho do array aumentou em um;
+- Se ao chamar a função passando um novo item o array contém o novo item; Lembrem que o valor que estamos [avaliando é um objeto dentro de um array](https://jestjs.io/pt-BR/docs/expect#tocontainequalitem).
+- Se ao chamar a função sem parâmetros lança a exceção `O inventário deve ser um array`. Lembrem de envolver a chamada da função em uma nova função [para que o Jest possa capturar o erro.](https://jestjs.io/pt-BR/docs/using-matchers#exce%C3%A7%C3%B5es)
 
 </details>
-
 
 ### 2. Implemente os testes da função `clearInventory`
 
@@ -147,7 +153,7 @@ Dica: cada exercício contém dicas do que vocês podem testar. Procurem discuti
   Dicas do que vocês podem testar:
 </summary>
 
-* Se ao chamar a função passando um array com quatro itens, sendo que um destes tem `quantity` igual a zero:
+- Se ao chamar a função passando um array com quatro itens, sendo que um destes tem `quantity` igual a zero:
 
   - o tamanho do array após chamar a função deve ser `3`;
   - o array não deve conter o item removido;
@@ -161,9 +167,9 @@ Dica: cada exercício contém dicas do que vocês podem testar. Procurem discuti
   Dicas do que vocês podem testar:
 </summary>
 
-* Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e `5` o retorno da função é um objeto com as propriedades `name: banana` e `quantity: 15`. Além disso, teste se esse item está presente no array.
-* Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e **não** passando o terceiro argumento o retorno da função é um objeto com as propriedades `name: banana` e `quantity: 19`.
-* Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e `30` a função lança um erro `O decremento deve ser menor ou igual a quantidade atual`.
+- Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e `5` o retorno da função é um objeto com as propriedades `name: banana` e `quantity: 15`. Além disso, teste se esse item está presente no array.
+- Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e **não** passando o terceiro argumento o retorno da função é um objeto com as propriedades `name: banana` e `quantity: 19`.
+- Se para um array contendo um item com `name: banana` e `quantity: 20`, ao chamar a função passando o array, `banana` e `30` a função lança um erro `O decremento deve ser menor ou igual a quantidade atual`.
 
 </details>
 
@@ -174,8 +180,8 @@ Dica: cada exercício contém dicas do que vocês podem testar. Procurem discuti
   Dicas do que vocês podem testar:
 </summary>
 
-* Se ao chamar a função passando um array, que contenha um item com o nome `banana` o retorno da função é um objeto, com a propriedade `name`, igual à `banana`.
-* Se ao chamar a função passando um array, que **não** contenha um item com o nome `maça`, é lançado um erro `'O item não foi encontrado'`.
+- Se ao chamar a função passando um array, que contenha um item com o nome `banana` o retorno da função é um objeto, com a propriedade `name`, igual à `banana`.
+- Se ao chamar a função passando um array, que **não** contenha um item com o nome `maça`, é lançado um erro `'O item não foi encontrado'`.
 
 </details>
 
@@ -186,8 +192,8 @@ Dica: cada exercício contém dicas do que vocês podem testar. Procurem discuti
   Dicas do que vocês podem testar:
 </summary>
 
-* Se ao chamar a função passando um array vazio o retorno é `0`.
-* Se ao chamar a função com um array de itens, retorna o somatório da quantidade dos itens multiplicado pelo preço. Por exemplo, para o array abaixo o retorno deve ser `525.34`. Lembrem de ter cuidado com a [comparação de números com casas decimais](https://jestjs.io/pt-BR/docs/using-matchers#n%C3%BAmeros).
+- Se ao chamar a função passando um array vazio o retorno é `0`.
+- Se ao chamar a função com um array de itens, retorna o somatório da quantidade dos itens multiplicado pelo preço. Por exemplo, para o array abaixo o retorno deve ser `525.34`. Lembrem de ter cuidado com a [comparação de números com casas decimais](https://jestjs.io/pt-BR/docs/using-matchers#n%C3%BAmeros).
 
 ```
 [
