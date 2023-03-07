@@ -27,6 +27,7 @@ Você vai implementar vários testes em contextos diferentes a fim de consolidar
 
 Atente-se, todos os arquivos utilizados neste exercício `já estão criados` .
 <br />
+
 </details>
 
 <details>
@@ -118,8 +119,7 @@ Neste exercício, verificamos se você é capaz de:
 
 O seu Pull Request deverá conter obrigatoriamente os arquivos nativos deste repositório, com sua devida lógica implementada.
 
-- Não é necessário criar novos arquivos.  **Durante a resolução dos requisitos, crie o costume de adicionar IDs em elementos únicos e classes em elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora.**
-
+- Não é necessário criar novos arquivos. **Durante a resolução dos requisitos, crie o costume de adicionar IDs em elementos únicos e classes em elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora.**
 
 </details>
 
@@ -168,18 +168,17 @@ Em caso de dúvidas, confira o material do course sobre [ESLint e Stylelint](htt
 <details>
   <summary><strong>🛠 Testes</strong></summary><br />
 
-⚠️**AVISO**: Muito cuidado com os nomes dos arquivos. Estes **não devem ser alterados.** 
+⚠️**AVISO**: Muito cuidado com os nomes dos arquivos. Estes **não devem ser alterados.**
 
 Todos os requisitos do projeto serão testados **automaticamente** por meio do `Jest`.
 
-  - Os comandos que você utilizará com mais frequência são:
+- Os comandos que você utilizará com mais frequência são:
 
-    - `npm test` (executa todos os testes presentes na aplicação)
-    - `npm test caminho/para/arquivo` (executa apenas os testes presentes no arquivo especificado)
-     - Exemplo: `npm test tests/sum.spec.js`
+  - `npm test` (executa todos os testes presentes na aplicação)
+  - `npm test caminho/para/arquivo` (executa apenas os testes presentes no arquivo especificado)
+  - Exemplo: `npm test tests/sum.spec.js`
 
 </details>
-
 
 <details>
   <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
@@ -195,10 +194,10 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 <details>
   <summary>A função sum(a, b) retorna a soma do parâmetro <code>a</code> com o <code>b</code>. No arquivo já criado <code>sum.spec.js</code>, adicione os testes a seguir: </summary><br>
 
-  - Teste se o retorno de `sum(4, 5)` é `9`;
-  - Teste se o retorno de `sum(0, 0)` é `0`.
-  - Teste se a função `sum` lança um erro quando os parâmetros são **number** `4` e **string** `'5'`;
-  - Teste se a mensagem de erro é `'parameters must be numbers'` quando realizar a chamada `sum(4, '5')`;
+- Teste se o retorno de `sum(4, 5)` é `9`;
+- Teste se o retorno de `sum(0, 0)` é `0`.
+- Teste se a função `sum` lança um erro quando os parâmetros são **number** `4` e **string** `'5'`;
+- Teste se a mensagem de erro é `'parameters must be numbers'` quando realizar a chamada `sum(4, '5')`;
 
 </details>
 <details>
@@ -214,6 +213,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 ---
 
 ## 2. Implemente o caso de teste para a função `printMessage`
+
 <details>
   <summary> Use como base a função <code>printMessage</code> que imprime no terminal uma mensagem de boas-vindas de acordo com as informações de personagem passada. </summary><br>
 
@@ -231,11 +231,12 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 ---
 
 ## 3. Ainda sobre a função `printMessage`, adicione os casos de teste a seguir
+
 <details>
 <summary> Complementando o teste da função acima que valida a entrada de parâmetro, você pode utilizar o matcher <code>toMatch()</code> para validar a resposta da função. </summary><br>
 
-  - Verifique se a resposta contém a informação Boas vindas, antes de chamar o nome da personagem;
-  - Verifique se a resposta contém o nome correto da personagem.
+- Verifique se a resposta contém a informação Boas vindas, antes de chamar o nome da personagem;
+- Verifique se a resposta contém o nome correto da personagem.
 
 </details>
 
@@ -254,10 +255,10 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 <details>
 <summary> Para finalizar o teste da função <code>printMessage</code>, você pode ainda criar um fluxo de exceção para possíveis erros.</summary><br>
 
-  - Dentro da função `printMessage` crie um  um fluxo de exceção para criar um erro caso seja enviado um parâmetro que não seja um objeto, ou que não tenha a propriedade personagem;
-  - Agora que a função possui um fluxo de exceção, crie um teste para validar se a mensagem de erro é lançada caso a função seja chamada com um objeto inválido.
+- Dentro da função `printMessage` crie um um fluxo de exceção para criar um erro caso seja enviado um parâmetro que não seja um objeto, ou que não tenha a propriedade personagem;
+- Agora que a função possui um fluxo de exceção, crie um teste para validar se a mensagem de erro é lançada caso a função seja chamada com um objeto inválido.
 
-  > **De olho na dica 👀:**  Aqui você pode relembrar o [toThrow.](https://jestjs.io/pt-BR/docs/expect#tothrowerror).
+> **De olho na dica 👀:** Aqui você pode relembrar o [toThrow.](https://jestjs.io/pt-BR/docs/expect#tothrowerror).
 
 </details>
 
@@ -265,44 +266,43 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
   <summary><strong>O que será testado</strong></summary><br>
 
 - Será validado se, no teste da função printMessage, ao receber um objeto inválido
-retorna a mensagem: `objeto inválido`.
+  retorna a mensagem: `objeto inválido`.
 
 </details>
 
 ---
 
- # Bônus
+# Bônus
 
- ## 5. Neste exercício, você irá praticar o desenvolvimento orientado a testes implementando `a função` e `os testes` para essa função
+## 5. Neste exercício, você irá praticar o desenvolvimento orientado a testes implementando `a função` e `os testes` para essa função
 
  <details> 
   <summary><strong>Sua função deverá se chamar <code>searchEmployee</code>, ela retorna os resultados da busca pelo id para aquele funcionário e a informação consultada.</strong></summary><br>
 
-  Considere os dados do aquivo <code>searchEmployee</code> localizando dentro da pasta src.
-  
-  - Crie uma função `searchEmployee` que receba dois parâmetros: o `id` do funcionário e a informação disponível sobre ele (`firstName`, `lastName`, `specialities`);
-  - Caso o `id` não conste no quadro de funcionários, sua função deve retornar o erro `"ID não identificado"`;
-  - Se a informação que se quer acessar não existir, a função deve retornar o erro `"Informação indisponível"`;
-  - Crie um teste para checar se, a função `searchEmployee` existe;
-  - Crie um teste para checar se, a função `searchEmployee(id, "firstName")` retorna o primeiro nome do usuário da id consultada;
-  - Crie um teste para checar se, a função `searchEmployee(id, "lastName")` retorna o segundo nome do usuário da id consultada;
-  - Crie um teste para checar se, a função `searchEmployee(id, "specialities")` retorna um array com todas as habilidades do id pesquisado;
-  - Crie um teste para checar se, a mensagem `"ID não identificada"` é retornado quando a ID não existir;
-  - Crie um teste que verifica o erro quando a informação e o ID são inexistentes;
-  - Teste a mensagem do erro para informação inexistente.
+Considere os dados do aquivo <code>searchEmployee</code> localizando dentro da pasta src.
+
+- Crie uma função `searchEmployee` que receba dois parâmetros: o `id` do funcionário e a informação disponível sobre ele (`firstName`, `lastName`, `specialities`);
+- Caso o `id` não conste no quadro de funcionários, sua função deve retornar o erro `"ID não identificado"`;
+- Se a informação que se quer acessar não existir, a função deve retornar o erro `"Informação indisponível"`;
+- Crie um teste para checar se, a função `searchEmployee` existe;
+- Crie um teste para checar se, a função `searchEmployee(id, "firstName")` retorna o primeiro nome do usuário da id consultada;
+- Crie um teste para checar se, a função `searchEmployee(id, "lastName")` retorna o segundo nome do usuário da id consultada;
+- Crie um teste para checar se, a função `searchEmployee(id, "specialities")` retorna um array com todas as habilidades do id pesquisado;
+- Crie um teste para checar se, a mensagem `"ID não identificada"` é retornado quando a ID não existir;
+- Crie um teste que verifica o erro quando a informação e o ID são inexistentes;
+- Teste a mensagem do erro para informação inexistente.
 
 </details>
 
 <details>
   <summary><strong>O que será testado</strong></summary><br>
 
-  - Verifica se função `searchEmployee` existe;
-  - Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "firstName")` retorna o primeiro nome do usuário da id consultada;
-  - Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "lastName")` retorna o segundo nome do usuário da id consultada;
-  - Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "specialities")` retorna um array com todas as habilidades do id pesquisado;
-  - Verifica se, a mensagem `"ID não identificada"` é retornado quando o ID não existir;
-  - Verifica se a função lança um erro, quando a informação e o ID são inexistentes;
-  - Verifica a mensagem de erro para informação inexistente.
-
+- Verifica se função `searchEmployee` existe;
+- Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "firstName")` retorna o primeiro nome do usuário da id consultada;
+- Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "lastName")` retorna o segundo nome do usuário da id consultada;
+- Verifica se a função `searchEmployee` ao receber como parâmetro `(id, "specialities")` retorna um array com todas as habilidades do id pesquisado;
+- Verifica se, a mensagem `"ID não identificada"` é retornado quando o ID não existir;
+- Verifica se a função lança um erro, quando a informação e o ID são inexistentes;
+- Verifica a mensagem de erro para informação inexistente.
 
 </details>
