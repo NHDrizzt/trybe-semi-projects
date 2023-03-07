@@ -1,9 +1,9 @@
-const { fantasyOrScienceFiction } = require('../src/index');
+const { fantasyOrScienceFiction } = require('../src/index')
 
 describe('1 - Filtre todos os objetos do gênero ficção científica ou fantasia', () => {
   it('Verifica se `fantasyOrScienceFiction` é uma função', () => {
-    expect(typeof fantasyOrScienceFiction).toBe('function');
-  });
+    expect(typeof fantasyOrScienceFiction).toBe('function')
+  })
 
   it('Verifica se os objetos retornados são livros do gênero ficção científica ou fantasia', () => {
     expect(fantasyOrScienceFiction()).toEqual([
@@ -35,6 +35,6 @@ describe('1 - Filtre todos os objetos do gênero ficção científica ou fantasi
         author: { name: 'Frank Herbert', birthYear: 1920 },
         releaseYear: 1965
       }
-    ]);
-  });
-});
+    ])
+  })
+})

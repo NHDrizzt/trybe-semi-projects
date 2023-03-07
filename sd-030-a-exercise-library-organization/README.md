@@ -1,6 +1,4 @@
-
 # Boas-vindas ao repositório do exercício Organizando a biblioteca!
-
 
 # Termos e acordos
 
@@ -20,13 +18,13 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
-  A empresa em que você trabalha fechou um contrato com uma biblioteca e você está responsável por desenvolver o novo sistema para organizar os livros.
+A empresa em que você trabalha fechou um contrato com uma biblioteca e você está responsável por desenvolver o novo sistema para organizar os livros.
 
-  Nos exercícios a seguir, você trabalhará com uma estrutura de dados representando uma lista de livros que contém informações como nome do livro, gênero, pessoa autora do livro e data de lançamento.
+Nos exercícios a seguir, você trabalhará com uma estrutura de dados representando uma lista de livros que contém informações como nome do livro, gênero, pessoa autora do livro e data de lançamento.
 
-  Em cada exercício, será pedido que você encontre ou produza alguma informação a respeito dessa lista utilizando as funções que você aprendeu hoje. Todos os exercícios contêm as funções já criadas no arquivo `src/index.js`.
+Em cada exercício, será pedido que você encontre ou produza alguma informação a respeito dessa lista utilizando as funções que você aprendeu hoje. Todos os exercícios contêm as funções já criadas no arquivo `src/index.js`.
 
-  Vamos lá?
+Vamos lá?
 
 </details><br />
 
@@ -37,63 +35,66 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 1. Clone o repositório
 
-	*  Use o comando: `git clone git@github.com:tryber/sd-030-a-exercise-library-organization.git`
+   - Use o comando: `git clone git@github.com:tryber/sd-030-a-exercise-library-organization.git`
 
-* Entre na pasta do repositório que você acabou de clonar:
+- Entre na pasta do repositório que você acabou de clonar:
 
-	*  `cd sd-030-a-exercise-library-organization`
+  - `cd sd-030-a-exercise-library-organization`
 
 2. Instale as dependências
 
-	* Para isso, use o seguinte comando: `npm install`
+   - Para isso, use o seguinte comando: `npm install`
 
 3. Crie uma branch a partir da branch `main`
 
-	* Verifique se você está na branch `main`
-	  * Exemplo: `git branch`
-	* Se não estiver, mude para a branch `main`
-	  * Exemplo: `git checkout main`
-	* Agora, crie uma branch para qual você vai submeter os `commits` do seu exercício:
-		* Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-exercício`
-		* Exemplo: `git checkout -b renanlf-library-organization`
+   - Verifique se você está na branch `main`
+     - Exemplo: `git branch`
+   - Se não estiver, mude para a branch `main`
+     - Exemplo: `git checkout main`
+   - Agora, crie uma branch para qual você vai submeter os `commits` do seu exercício:
+     - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-exercício`
+     - Exemplo: `git checkout -b renanlf-library-organization`
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-	* Verifique que as mudanças ainda não estão no _stage_
-	  * Exemplo: `git status` (os arquivos no diretório `src` devem aparecer em vermelho)
 
-	* Adicione o novo arquivo ao _stage_ do Git
-	  * Exemplo: `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-	  *  `git status` (deve aparecer listado os arquivos do diretório `src` em verde)
+   - Verifique que as mudanças ainda não estão no _stage_
 
-	* Faça o `commit` inicial
-	  * Exemplo: `git commit -m 'iniciando o exercício. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-	*  `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+     - Exemplo: `git status` (os arquivos no diretório `src` devem aparecer em vermelho)
+
+   - Adicione o novo arquivo ao _stage_ do Git
+
+     - Exemplo: `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
+     - `git status` (deve aparecer listado os arquivos do diretório `src` em verde)
+
+   - Faça o `commit` inicial
+     - Exemplo: `git commit -m 'iniciando o exercício. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
+   - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
 
-	* Usando o exemplo anterior: `git push -u origin renanlf-library-organization`
+   - Usando o exemplo anterior: `git push -u origin renanlf-library-organization`
 
-6. Crie um novo `Pull Request`  _(PR)_
-	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-a-exercise-library-organization/pulls)
-	* Clique no botão verde _"New pull request"_
-	* Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-	* Coloque um título para o seu _Pull Request_
-    * Exemplo: _"Cria tela de busca"_
-	* Clique no botão verde _"Create pull request"_
-	* Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-	*  **Não se preocupe em preencher mais nada por enquanto!**
-	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-a-exercise-library-organization/pulls) e confira que o seu _Pull Request_ está criado.
+6. Crie um novo `Pull Request` _(PR)_
+   - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-a-exercise-library-organization/pulls)
+   - Clique no botão verde _"New pull request"_
+   - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+   - Coloque um título para o seu _Pull Request_
+   - Exemplo: _"Cria tela de busca"_
+   - Clique no botão verde _"Create pull request"_
+   - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
+   - **Não se preocupe em preencher mais nada por enquanto!**
+   - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-a-exercise-library-organization/pulls) e confira que o seu _Pull Request_ está criado.
 
 </details>
 
 <details>
 <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
 
-* Faça `commits` das alterações que você fizer no código regularmente;
+- Faça `commits` das alterações que você fizer no código regularmente;
 
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
+- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
 
-* Os comandos que você utilizará com mais frequência são:
+- Os comandos que você utilizará com mais frequência são:
 
 1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
 
@@ -204,7 +205,7 @@ npm test fantasyOrScienceFiction
 
 Na pasta raiz do exercício, temos as pastas `src`, `evaluator` e `data`.
 
-A pasta `src` contém o arquivo `index.js` com cada uma das funções que você irá implementar. 
+A pasta `src` contém o arquivo `index.js` com cada uma das funções que você irá implementar.
 A pasta `data` contém o arquivo `library.js`, que armazena os dados que você vai utilizar para retornar as informações sobre a biblioteca.
 A pasta `evaluator` possui os testes automatizados que avaliarão o seu projeto; os conteúdos desta pasta não devem ser alterados.
 
@@ -215,68 +216,68 @@ A pasta `evaluator` possui os testes automatizados que avaliarão o seu projeto;
 
 ```javascript
 {
-	books: [
+  books: [
     {
-        id: 1,
-        name: 'As Crônicas de Gelo e Fogo',
-        genre: 'Fantasia',
-        author: {
-        name: 'George R. R. Martin',
+      id: 1,
+      name: "As Crônicas de Gelo e Fogo",
+      genre: "Fantasia",
+      author: {
+        name: "George R. R. Martin",
         birthYear: 1948,
-        },
-        releaseYear: 1991,
+      },
+      releaseYear: 1991,
     },
     {
-        id: 2,
-        name: 'O Senhor dos Anéis',
-        genre: 'Fantasia',
-        author: {
-        name: 'J. R. R. Tolkien',
+      id: 2,
+      name: "O Senhor dos Anéis",
+      genre: "Fantasia",
+      author: {
+        name: "J. R. R. Tolkien",
         birthYear: 1892,
-        },
-        releaseYear: 1954,
+      },
+      releaseYear: 1954,
     },
     {
-        id: 3,
-        name: 'Fundação',
-        genre: 'Ficção Científica',
-        author: {
-        name: 'Isaac Asimov',
+      id: 3,
+      name: "Fundação",
+      genre: "Ficção Científica",
+      author: {
+        name: "Isaac Asimov",
         birthYear: 1920,
-        },
-        releaseYear: 1951,
+      },
+      releaseYear: 1951,
     },
     {
-        id: 4,
-        name: 'Duna',
-        genre: 'Ficção Científica',
-        author: {
-        name: 'Frank Herbert',
+      id: 4,
+      name: "Duna",
+      genre: "Ficção Científica",
+      author: {
+        name: "Frank Herbert",
         birthYear: 1920,
-        },
-        releaseYear: 1965,
+      },
+      releaseYear: 1965,
     },
     {
-        id: 5,
-        name: 'A Coisa',
-        genre: 'Terror',
-        author: {
-        name: 'Stephen King',
+      id: 5,
+      name: "A Coisa",
+      genre: "Terror",
+      author: {
+        name: "Stephen King",
         birthYear: 1947,
-        },
-        releaseYear: 1986,
+      },
+      releaseYear: 1986,
     },
     {
-        id: 6,
-        name: 'O Chamado de Cthulhu',
-        genre: 'Terror',
-        author: {
-        name: 'H. P. Lovecraft',
+      id: 6,
+      name: "O Chamado de Cthulhu",
+      genre: "Terror",
+      author: {
+        name: "H. P. Lovecraft",
         birthYear: 1890,
-        },
-        releaseYear: 1928,
+      },
+      releaseYear: 1928,
     },
-  ]
+  ];
 }
 ```
 
@@ -285,13 +286,13 @@ A pasta `evaluator` possui os testes automatizados que avaliarão o seu projeto;
   O array <code>books</code> guarda as informações de cada livro da biblioteca
   </summary> <br />
 
-  | Chave | Descrição |
-  | ------------ | ----------|
-  | `id`         | é o identificador do livro |
-  | `name`       | é o nome do livro |
-  | `genre`      | é o gênero do livro |
-  | `releaseYear`| é o ano de lançamento do livro |
-  | `author` | é um objeto que representa a pessoa autora do livro |
+| Chave         | Descrição                                           |
+| ------------- | --------------------------------------------------- |
+| `id`          | é o identificador do livro                          |
+| `name`        | é o nome do livro                                   |
+| `genre`       | é o gênero do livro                                 |
+| `releaseYear` | é o ano de lançamento do livro                      |
+| `author`      | é um objeto que representa a pessoa autora do livro |
 
 </details>
 
@@ -300,10 +301,10 @@ A pasta `evaluator` possui os testes automatizados que avaliarão o seu projeto;
   O objeto <code>author</code> é onde ficam as informações de cada pessoa autora
   </summary> <br />
 
-  | Chave | Descrição |
-  | ----------- | ------ |
-  | `name`        | é o nome dessa pessoa |
-  | `birthYear` | é o ano de nascimento dessa pessoa |
+| Chave       | Descrição                          |
+| ----------- | ---------------------------------- |
+| `name`      | é o nome dessa pessoa              |
+| `birthYear` | é o ano de nascimento dessa pessoa |
 
 </details>
 
@@ -363,32 +364,32 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 [
   {
     id: 1,
-    name: 'As Crônicas de Gelo e Fogo',
-    genre: 'Fantasia',
-    author: { name: 'George R. R. Martin', birthYear: 1948 },
-    releaseYear: 1991
+    name: "As Crônicas de Gelo e Fogo",
+    genre: "Fantasia",
+    author: { name: "George R. R. Martin", birthYear: 1948 },
+    releaseYear: 1991,
   },
   {
     id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
-    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
-    releaseYear: 1954
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
+    author: { name: "J. R. R. Tolkien", birthYear: 1892 },
+    releaseYear: 1954,
   },
   {
     id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
-    author: { name: 'Isaac Asimov', birthYear: 1920 },
-    releaseYear: 1951
+    name: "Fundação",
+    genre: "Ficção Científica",
+    author: { name: "Isaac Asimov", birthYear: 1920 },
+    releaseYear: 1951,
   },
   {
     id: 4,
-    name: 'Duna',
-    genre: 'Ficção Científica',
-    author: { name: 'Frank Herbert', birthYear: 1920 },
-    releaseYear: 1965
-  }
+    name: "Duna",
+    genre: "Ficção Científica",
+    author: { name: "Frank Herbert", birthYear: 1920 },
+    releaseYear: 1965,
+  },
 ];
 ```
 
@@ -403,7 +404,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
   Implemente a função <code>oldBooksOrdered</code> que deve retornar um <code>array</code> com os livros publicados há no mínimo 60 anos, a partir de um ano recebido por parâmetro, ordenados do mais velho para o mais novo.
   </summary> <br />
 
-  > **De olho na dica 👀:** para acessar o ano atual, pesquise sobre "como resgatar o ano atual com JavaScript" e use as funções <code>filter</code> e <code>sort</code>.
+> **De olho na dica 👀:** para acessar o ano atual, pesquise sobre "como resgatar o ano atual com JavaScript" e use as funções <code>filter</code> e <code>sort</code>.
 
 **O que será testado:**
 
@@ -415,23 +416,23 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 [
   {
     id: 6,
-    name: 'O Chamado de Cthulhu',
-    genre: 'Terror',
-    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+    name: "O Chamado de Cthulhu",
+    genre: "Terror",
+    author: { name: "H. P. Lovecraft", birthYear: 1890 },
     releaseYear: 1928,
   },
   {
     id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
-    author: { name: 'Isaac Asimov', birthYear: 1920 },
+    name: "Fundação",
+    genre: "Ficção Científica",
+    author: { name: "Isaac Asimov", birthYear: 1920 },
     releaseYear: 1951,
   },
   {
     id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
-    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+    name: "O Senhor dos Anéis",
+    genre: "Fantasia",
+    author: { name: "J. R. R. Tolkien", birthYear: 1892 },
     releaseYear: 1954,
   },
 ];
@@ -453,7 +454,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 - A função `booksByAuthorBirthYear`, ao ser executada com o argumento `1920`, deve retornar o seguinte array:
 
 ```js
-[ 'Fundação', 'Duna' ];
+["Fundação", "Duna"];
 ```
 
 </details>
@@ -472,12 +473,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 - A função `fantasyOrScienceFictionAuthors` deve retornar o seguinte array:
 
 ```js
-[
-  'Frank Herbert',
-  'George R. R. Martin',
-  'Isaac Asimov',
-  'J. R. R. Tolkien',
-];
+["Frank Herbert", "George R. R. Martin", "Isaac Asimov", "J. R. R. Tolkien"];
 ```
 
 </details>
@@ -496,11 +492,7 @@ Você sabia que o LinkedIn é a principal rede social profissional e compartilha
 - A função `oldBooks`, com o parâmetro `2022`, deve retornar o seguinte array:
 
 ```js
-[
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
+["O Senhor dos Anéis", "Fundação", "O Chamado de Cthulhu"];
 ```
 
 </details>

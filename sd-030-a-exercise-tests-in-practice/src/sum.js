@@ -1,9 +1,9 @@
-function sum(a, b) {
+function sum (a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-    throw new Error('parameters must be numbers');
+    throw new Error('parameters must be numbers')
   }
-  
-  return a + b;
+
+  return a + b
 }
 
-module.exports = sum;
+module.exports = sum

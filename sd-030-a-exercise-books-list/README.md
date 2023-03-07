@@ -18,8 +18,8 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
-  Neste exercício você vai desenvolver funções usando as `Higher Order Functions` **map** e **sort**
-  
+Neste exercício você vai desenvolver funções usando as `Higher Order Functions` **map** e **sort**
+
 <br />
 
 </details>
@@ -54,9 +54,11 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
 
 - Verifique que as mudanças ainda não estão no _stage_
+
   - Exemplo: `git status` (os arquivos no diretório `src` devem aparecer em vermelho)
 
 - Adicione o novo arquivo ao _stage_ do Git
+
   - Exemplo: `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
   - `git status` (deve aparecer listado os arquivos do diretório `src` em verde)
 
@@ -68,7 +70,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 - Usando o exemplo anterior: `git push -u origin luiza-exercice-books-list`
 
-6. Crie um novo `Pull Request`  _(PR)_
+6. Crie um novo `Pull Request` _(PR)_
 
 - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-exercice-books-list/pulls)
 - Clique no botão verde _"New pull request"_
